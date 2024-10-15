@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Surya Lakkineni Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /*======================================
+        //--//-->   ABOUT
+        ======================================*/
+
+        .hero {
+            position: relative;
+            height: 100vh; /* Full height for hero section */
+            overflow: hidden;
+        }
+
+        .home-slider {
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            height: 100%;
+        }
+
+        .slider-item {
+            display: flex;
+            flex-direction: row; /* Arrange items in a row */
+            align-items: center; /* Center vertically */
+            justify-content: space-between; /* Space between elements */
+        }
+
+        .one-third {
+            width: 50%; /* Adjust width as needed */
+            padding: 20px; /* Add some padding for spacing */
+        }
+
+        .one-forth {
+            width: 50%; /* Adjust width as needed */
+            padding: 20px; /* Add some padding for spacing */
+        }
+
+        .about-mf .about-img img {
+            max-width: 100%; /* Ensure the image is responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Remove the right-side background image */
+        .about-mf .img {
+            background: none;
+        }
+
+        .skill-mf .progress {
+            margin: .5rem 0 1.2rem 0;
+            border-radius: 0;
+            height: .7rem;
+        }
+
+        .skill-mf .progress .progress-bar {
+            height: .7rem;
+            background-color: #ffde39; /* Set desired color */
+        }
+
+        /* Animation styles */
+        #typing-animation {
+            position: relative;
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(20, end) infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        /* Button styles */
+        .btn {
+            position: relative; /* Ensure z-index applies */
+            z-index: 2; /* Bring button above other elements */
+            cursor: pointer; /* Show pointer cursor */
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Surya Lakkineni</a>
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav nav mx-auto">
+                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+        <div class="slider-item">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-md-flex no-gutters align-items-center justify-content-center">
+                    <div class="one-third">
+                        <div class="text">
+                            <span class="subheading">Hello!</span>
+                            <h1 class="mb-4 mt-3">I'm <strong>Surya Lakkineni</strong></h1>
+                            <span id="typing-animation"></span>
+                            <h2>A Data Analyst</h2>
+                            <a href="https://github.com/suryalakkineni" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+                        </div>
+                    </div>
+                    <div class="one-forth">
+                        <div class="about-img">
+                            <img src="images/bg_1.webp" class="img-fluid rounded b-shadow-a" alt="Background Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="row d-flex align-items-stretch">
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-5">
+                                    <div class="about-img">
+                                        <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-7">
+                                    <div class="about-info">
+                                        <p><span class="title-s">Name: </span> <span>Surya Lakkineni</span></p>
+                                        <p><span class="title-s">Job Role: </span> <span> Data Analyst</span></p>
+                                        <p><span class="title-s">Address: </span> <span>Hyderabad, India</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-mf">
+                                <p class="title-s">Skills</p>
+                                <span>SQL</span> <span class="pull-right">95%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span>PYTHON</span> <span class="pull-right">90%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span>MACHINE LEARNING</span> <span class="pull-right">80%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span>DATA VISUALIZATION</span> <span class="pull-right">85%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <div class="heading-section ftco-animate">
+                        <span class="subheading">About Me</span>
+                        <h2 class="mb-4">A little about me</h2>
+                        <p class="lead">Passionate Data Analyst with a strong background in data visualization and machine learning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="ftco-footer ftco-section" id="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2024 <strong>Surya Lakkineni</strong>. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    // Typing effect for the animated text
+    const texts = ['Data Analyst', 'Machine Learning Enthusiast', 'Python Developer'];
+    let index = 0;
+    const typingAnimation = document.getElementById('typing-animation');
+    
+    setInterval(() => {
+        typingAnimation.textContent = texts[index];
+        index = (index + 1) % texts.length;
+    }, 3000);
+</script>
+</body>
+</html>
+
+
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Resume</h1>
+					<h2 class="mb-4">Resume</h2>
+					<p>Data Analyst with expertise in data science and analytics, specializing in statistical analysis, hypothesis testing, and customer behavior analysis. Skilled in utilizing machine learning algorithms to derive actionable insights and improve decision-making processes. Experienced in project management and mentoring, with a strong proficiency in Python, SQL, Excel, and Tableau.</p>
+					<p>As a passionate data analyst, I thrive on turning raw data into meaningful stories that drive impactful decisions. Eager to dive into the world of data analysis, I bring a fresh perspective and innovative ideas to transform complex data into actionable insights.</p>
+				</div>
+			</div>
+	
+			<div class="row">
+				<h1 class="big-4">Experience</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">January 6, 2024 - April 5, 2024</span>
+						<h2>Data Analytics Intern</h2>
+						<span class="position">PrepInsta Technologies Pvt. Ltd.</span>
+						<p class="mt-4">
+							Analyzed the impact of ONDC's entry on the Indian food delivery market. 
+							Used SQL for data extraction and analysis.
+							<ul>
+								<li>Awarded "Best Award" for outstanding performance.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">December 15, 2023 - January 14, 2024</span>
+						<h2>Machine Learning and Deep Learning Intern</h2>
+						<span class="position">AIQuantum Smart Solutions Pvt. Ltd.</span>
+						<p class="mt-4">
+							Completed training on Machine Learning and Deep Learning using Python. 
+							Worked on Image Processing and various ML/DL algorithms.
+							<ul>
+								<li>Demonstrated strong learning and application skills.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024</span>
+						<h2>Data Analytics Bootcamp</h2>
+						<span class="position">Great Lakes Institute of Management</span>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2020-2023</span>
+						<h2>Bachelor of Engineering</h2>
+						<span class="position">Anil Neerukonda Institute of Technology</span>
+						<p class="mt-4">Grade: Distinction</p>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2017-2020</span>
+						<h2>Diploma in Electrical Engineering</h2>
+						<span class="position">SMVM Polytechnic College</span>
+						<p class="mt-4">Grade: Distinction</p>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2017</span>
+						<h2>Higher Secondary School</h2> 
+						<span class="position">Narayana</span>
+						<p class="mt-4">Grade: Distinction</p>
+					</div>
+				</div>
+			</div>
+			
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Below is a sample Data Analytics project.</p>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/suryalakkineni/zomato-recommendation" class="block-20 zoom-effect" style="background-image: url('images/download.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/suryalakkineni/zomato-recommendation">Zomato Recommendation System</a></h3>
+							<p>Developed a recommendation system for Zomato to suggest restaurants based on user preferences and ratings.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+    </section>
+
+	<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="20">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="30">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1000">0</strong>
+                <span>Mentored Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	 -->
+	 <!-- 
+<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)"> 
+	<div class="container"> 
+-->
+<div class="row justify-content-center">
+	<div class="col-md-7 ftco-animate text-center">
+		<h2>More projects on <span>GitHub</span></h2>
+		<div class="heading">
+			<h4>I love to solve business problems &amp; uncover hidden data stories</h4>
+			<br>
+			<p><a href="https://github.com/suryalakkineni" class="btn btn-primary py-3 px-5">GitHub</a></p>
+		</div>
+	</div>
+</div>
+<!-- 
+</div> 
+</div> 
+-->
+
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Hyderabad, India</p>
+	          </div>
+          <!-- </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+ 0 101 0101 101</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">conctact@domainname.com</a></p>
+	          </div> -->
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="align-self-stretch box p-4 text-center">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-globe"></span>
+					</div>
+					<h3 class="mb-4">Download Resume</h3>
+					<p><a href="https://docs.google.com/document/d/1b9dq0RIGzqnEnJ_m-xKHePHtyO9zHsyH/edit?usp=sharing&ouid=108712998143046318382&rtpof=true&sd=true" target="_blank">Click here to download my resume</a></p>
+				</div>
+			</div>
+			
+
+		  <div class="container">
+			<!-- <br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div> -->
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <!-- <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li> -->
+					  <li class="ftco-animate"><a href="www.linkedin.com/in/suryalakkineni"><span class="icon-linkedin"></span></a></li>  
+					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span class="icon-instagram"></span></a></li> -->
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
